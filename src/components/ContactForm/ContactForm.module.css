@@ -1,0 +1,40 @@
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    border: 2px solid whitesmoke;
+    padding: 24px;
+    font-size: 24px;
+}
+
+.label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    margin-bottom: 12px;
+}
+
+input {
+    width: 300px;
+    border-radius: 4px;
+    padding: 6px 12px;
+    outline: none;
+    border: none;
+}
+
+.submitBtn {
+    display: block;
+    width: 300px;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin-left: auto;
+    border: none;
+    background-color: steelblue;
+    color: whitesmoke;
+}
+
+.submitBtn:hover,
+.submitBtn:focus {
+    background-color: darkslateblue;
+}

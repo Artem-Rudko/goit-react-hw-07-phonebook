@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    background-color: lightsteelblue;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.App {
+    margin-right: auto;
+    margin-left: auto;
+    width: 480px;
+}
+
+.App h1,
+.App h2 {
+    color: steelblue;
+}
